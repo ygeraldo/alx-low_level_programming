@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdio.h>
 /**
  *main -> assign a random number to the variable n each time it is executed
  *and print the last digit of the number stored in the variable n
@@ -8,16 +8,20 @@
  */
 int main(void)
 {
-int ch;
+	char alpha = “a”
+	char fam = “b”
 
-	for (ch = 97; ch <= 122; ch++)
+	if ( a > 0 || b == 0)
 	{
-	putchar(ch);
+		putchar (“a.\n”);
 	}
-	for (ch = 65; ch <= 90; ch++)
+	else if (a != 0 && b < a)
 	{
-	putchar(ch);
+		putchar (“A.\n”);
 	}
-	putchar(10); /* this is an ascii code for new line*/
-	return (0);
+	else (a == 0 || b > 0)
+	{
+		putchar (“error”);
+	}
+	return 0;
 }

@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Prints the alphabet in lowercase
- *
- * return: 0 if success
- **/
+ *main -  assign a random number to the variable n each time it is executed
+ *and print the last digit of the number stored in the variable n
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	char a;

@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - Task 3 prints the alphabet in lowercase, and the in uppercase
- * followed by a new line
+ * main - entry point
  *
- * return: 0
- **/
+ *Return: alway returns 0
+ * 
+ */
 int main(void)
 {
 	char a;

@@ -6,22 +6,22 @@
  *and print the last digit of the number stored in the variable n
  *Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char alpha = “a”
-	char fam = “b”
-
-	if ( a > 0 || b == 0)
+	char ch = "a";
+	
+	if (ch <= 'z')
 	{
-		putchar (“a.\n”);
+	putchar ("%c , ch \n");
 	}
-	else if (a != 0 && b < a)
+	else if (ch >= 'z')
 	{
-		putchar (“A.\n”);
+	putchar ("%c , ch \n");
 	}
-	else (a == 0 || b > 0)
+	else (ch != 'z')
 	{
-		putchar (“error”);
+	putchar (0);
 	}
 	return 0;
 }

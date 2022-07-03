@@ -9,19 +9,15 @@
 
 int main(void)
 {
-	char ch = "a";
+	char letter;
 	
-	if (ch <= 'z')
-	{
-	putchar ("%c , ch \n");
-	}
-	else if (ch >= 'z')
-	{
-	putchar ("%c , ch \n");
-	}
-	else (ch != 'z')
-	{
-	putchar (0);
-	}
-	return 0;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		put(letter);
+
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar (letter);
+	
+	putchar('\n');
+	
+	return (0);
 }

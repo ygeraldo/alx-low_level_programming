@@ -2,9 +2,10 @@
 #include <time.h> 
 #include <stdio.h>
 /*
- *main - assign a random number to the variable num each time it is executed
+ *main - Prints all single digit numbers of base 10 starting from 0,
  *only using putchar and without char variables.
  *
+ * Return: Always 0.
  */
 
 int main(void)

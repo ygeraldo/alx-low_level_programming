@@ -8,6 +8,7 @@
 int main(void)
 {
 	printsomething();
+	print_alphabet();
 
 	return (0);
 }

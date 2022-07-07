@@ -1,4 +1,4 @@
-#include <"main.h">
+#include "main.h"
 /**
 *_isupper - Checks if a character is upper
 *@c: The character to be checked.
@@ -11,4 +11,5 @@ int _isupper(int c);
 		return (1);
 	else
 		return (0);
+
 }

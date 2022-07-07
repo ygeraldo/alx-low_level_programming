@@ -1,27 +1,31 @@
 #include <stdio.h>
 /**
- *main - Prints the numbers from 1-100, 
- *
- *Return: Always 0.
+ *main - function that checks for uppercase character.
+ *Return: 0
  */
 int main(void)
 {
-	int num;
+	int h = 1;
 
-	for (num = 1; num <= 100; num++)
+	while (h <= 100)
 	{
-		if ((num % 3) == 0 && (num % 5) == 0)
-			printf("FizzBuzz");
-		else if ((num % 3) == 0)
-			printf("Fizz");
-		else if ((num % 5) == 0)
-			printf("Buzz");
+		if (h % 3 == 0 && h % 5 == 0)
+			printf("FizzBuzz ");
+		else if (h % 5 == 0)
+		{
+			if (h == 100)
+			{
+				printf("Buzz");
+				printf("\n");
+			}
+			else
+				printf("Buzz ");
+		}
+		else if (h % 3 == 0)
+			printf("Fizz ");
 		else
-		       printf("%d", num);
-		if (num == 100)
-			continue;
-		printf(" ");
+			printf("%d ", h);
+	h++;
 	}
-	printf("\n");
-	return (0);	
+return (0);
 }

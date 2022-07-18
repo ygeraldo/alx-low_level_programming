@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- *_memset - fills the first n bytes of the memory area pointed to by s 
- *		with the constant byte b
+ *_memset - sets memory to array 
  *@s: array to set
  *@b: value to set it as
  *@n: n amount of times

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_memset - sets memory to array 
+ *_memset - sets memory to array
  *@s: array to set
  *@b: value to set it as
  *@n: n amount of times

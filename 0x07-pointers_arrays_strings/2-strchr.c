@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *_strchr - locates character in string
+ *_strchr - locates character in string 
  *@s: string to locate char
- *@c: character to find
+ *@c: character to find 
  *Return: character value
  */
 char *_strchr(char *s, char c)
@@ -18,5 +18,5 @@ char *_strchr(char *s, char c)
 	}
 	if (s[i] == c)
 		return (s + i);
-	return (0);	
+	return (0);
 }

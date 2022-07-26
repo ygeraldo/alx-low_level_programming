@@ -1,1 +1,2 @@
-This is the project of malloc, free
+This is all about dynamic memory allocation
+This project convers malloc, free.

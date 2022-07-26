@@ -7,7 +7,7 @@
  *@c: char to initialize with?
  *Return: char value
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int i;
 	int n = 0;

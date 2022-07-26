@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *create_array - creates array
- *@size: size of array to create
- *@c: char to initialize with?
- *Return: char value
+ *_strdup - duplicates string
+ *@str: string to copy
+ *Return: char to newly duplicated string
+ *
  */
 char *_strdup(char *str)
 {

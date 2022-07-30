@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *string_nconcat - concatenate two string
- *@s1: string1
- *@s2: sstring2
- *@n: n bytes of s2
+ * string_nconcat - concats strings
+ *@s1: string one
+ *@s2: string two
+ *@n: n amount of bytes
  *
- *Return: pointer
+ *Return: return a char val
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {

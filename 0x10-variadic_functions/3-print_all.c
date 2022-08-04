@@ -12,6 +12,7 @@ int print_c(va_list a)
 	printf("%c", va_arg(a, int));
 	return (0);
 }
+
 /**
  * print_i - prints int
  * @a: list to give
@@ -22,6 +23,7 @@ int print_i(va_list a)
 	printf("%d", va_arg(a, int));
 	return (0);
 }
+
 /**
  * print_f - prints float
  * @a: list to give
@@ -32,6 +34,7 @@ int print_f(va_list a)
 	printf("%f", va_arg(a, double));
 	return (0);
 }
+
 /**
  * print_s - prints string
  * @a: list to give
@@ -50,6 +53,7 @@ int print_s(va_list a)
 	printf("%s", s);
 	return (0);
 }
+
 /**
  * print_all - prints all
  * @format: format string that says arg types
